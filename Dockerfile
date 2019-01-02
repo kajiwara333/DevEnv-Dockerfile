@@ -13,7 +13,7 @@ RUN conda install --quiet --yes \
     fix-permissions $CONDA_DIR && \
     fix-permissions /home/$NB_USER
 
-# Install Pytorch
+# Install Pytorch-ver0.4.1
 RUN conda install pytorch=0.4.1
 RUN conda install torchvision -c pytorch
 
